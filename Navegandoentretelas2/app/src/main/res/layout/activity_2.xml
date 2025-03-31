@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo2"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/txtSubTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Selecione para qual tela você deseja ir!"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/corLetras"
+        android:shadowColor="#88000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <Button
+        android:id="@+id/botao3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela com os integrantes"
+        android:backgroundTint="@color/coresbotoes"
+        android:textColor="@color/corLetrasBotao"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/botao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para tela 1"
+        android:backgroundTint="@color/coresbotoes"
+        android:textColor="@color/corLetrasBotao"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

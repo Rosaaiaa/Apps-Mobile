@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Navegando entre telas2</string>
+    <string name="botao1">ir para a tela 1</string>
+    <string name="botao2">Ir para Tela 2</string>
+    <string name="botao3">ir para a tela 3</string>
+    <string name="listaNomes">Lista de Participantes</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corFundo">#EBDDB0F6</color>
+    <color name="corFundo2">#FAB0AEFA</color>
+    <color name="corFundo3">#FAFAA8F9</color>
+    <color name="corLetras">#00152C</color>
+    <color name="coresbotoes">#E0B558</color>
+    <color name="corLetrasBotao">#000000</color>
+    <color name="corTitulo">#3F0247</color>
+</resources>

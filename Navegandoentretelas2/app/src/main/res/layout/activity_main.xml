@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/corFundo"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="412dp"
+        android:layout_height="109dp"
+        android:baselineAligned="false"
+        android:text="Bem-vindo!"
+        android:textColor="@color/corTitulo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        android:shadowColor="#88000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <TextView
+        android:id="@+id/txtSubTitulo"
+        android:layout_width="412dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="136dp"
+        android:text="Selecione a sua tela!"
+        android:textColor="@color/corLetras"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/botao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela 2"
+        android:backgroundTint="@color/coresbotoes"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/corLetrasBotao"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo3"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="Conheça os integrantes do grupo:"
+        android:textColor="@color/corLetras"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:shadowColor="#88000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+    <TextView
+        android:id="@+id/listaNomes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textColor="@color/corLetras"/>
+
+
+    <TextView
+        android:id="@+id/txtSubTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Selecione para qual tela você deseja ir!"
+        android:textSize="24sp"
+        android:textColor="@color/corLetras"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/botao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar para tela 1"
+        android:backgroundTint="@color/coresbotoes"
+        android:textColor="@color/corLetrasBotao"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/botao2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar para tela 2"
+        android:backgroundTint="@color/coresbotoes"
+        android:textColor="@color/corLetrasBotao"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:src="@drawable/snoopy_peanuts"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
